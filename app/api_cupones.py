@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from api_cupones import get_final_price
+from .cupones import get_final_price
 
 app = Flask(__name__)
 
